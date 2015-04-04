@@ -1,0 +1,643 @@
+
+.noOpacity{
+
+  opacity: 0;
+}
+
+.totalOpacity{
+
+  opacity: 1;
+}
+
+.hidden{
+  opacity: 0;
+}
+
+.show{
+  opacity: 1;
+}
+
+
+
+
+a{
+  color:rgb(204,0,222);
+  z-index: 999;
+}
+span{
+z-index: 9;
+
+}
+body{
+  width: 100%;
+  height: 100%;
+  font-family: 'Alex Brush', cursive;  background: rgba(255,255,255,1);
+  position: relative;
+  z-index: -99999;
+}
+div{
+
+  text-align: left;
+}
+span.floatRight{
+
+font-size: inherit;
+}
+p{
+
+  font-size: inherit;
+}
+
+.vessel {
+
+  position: absolute;
+  width: 1%;
+  height: 1%;
+}
+
+
+.glyphicon{
+
+  cursor: pointer;
+  color: rgb(255,255,255);
+  z-index: 999;
+  position: fixed;
+  font-size: 4em;
+    font-size: 12vw;
+  text-align: center;
+
+  text-shadow: -1px 1px 99px #c0c0c0;
+}
+
+.glyphicon:hover{
+    cursor: pointer;
+    
+    text-shadow: -1px 1px 99px #FFDB4D, 1px -1px 99px #FFDB4D;
+
+}
+
+
+
+
+#play{
+  left: 45%;
+  top: 70%;
+  text-align: right;
+
+}
+#contact{
+  left: 15%;
+  top: 70%;
+  text-align: left;
+
+}
+#resume{
+  left: 15%;
+  top: 35%;
+  text-align: left;
+}
+#photo{
+  left: 45%;
+  top: 35%;
+  text-align: right;
+}
+
+
+.annot{
+  opacity: 0;
+  text-align: center;
+  font-size: 2em;
+    font-size: 16vpw;
+  color: white;
+  z-index: 99;
+
+  -webkit-transition: font-size .3s;
+  -moz-transition: font-size .3s;
+  -ms-transition: font-size .3s;
+  -o-transition: font-size .3s;
+  transition: font-size .3s;
+
+}
+
+.box {
+  display: none;
+  position: fixed;
+  left: 33%;
+  top: 33%;
+  height: 33%;
+  width: 33%;
+  background-color: rgba(30,30,30,.00);
+  border-radius: 10%;
+
+  -webkit-transition: background-color 3s;
+  -moz-transition: background-color 3s;
+  -ms-transition: background-color 3s;
+  -o-transition: background-color 3s;
+  transition: background-color 3s;
+
+}
+
+.box:hover{
+  background-color: rgba(200,200,200,.01);
+  -webkit-transition: background-color 3s;
+  -moz-transition: background-color 3s;
+  -ms-transition: background-color 3s;
+  -o-transition: background-color 3s;
+  transition: background-color 3s;
+}
+
+.mcVessel{
+  position: fixed;
+  display: block;
+  left: 11.1%;
+  top: 11.1%;
+  height: 77.7%;
+  width: 77.7%;
+  border-radius: 10%;
+  text-align: center;
+  vertical-align: middle;
+  z-index: 9;
+  }
+
+
+
+
+#pControlVessel{
+  overflow: hidden;
+}
+
+#mainContent{
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out; 
+  -webkit-transition: all 0.3s ease-out; 
+  transition: all 0.3s ease-out;
+}
+#mainContent:hover{
+  text-shadow: #FFDB4D 1px 1px;
+}
+
+.c1, .c2, .c3, .c4, .c5{
+  z-index: 9;
+}
+
+.c1{
+  font-weight: 900;
+  font-size: 20vph;
+  color: inherit;
+    text-align: center;
+
+}
+ .c2{
+  font-weight: 700;
+  font-size: 16vph;
+  color: inherit;
+  text-align: center;
+ }
+
+ .c3{
+  font-weight: 500;
+  font-size: 12vph;
+  color: inherit;
+  text-align: center;
+ }
+
+  .c4{
+  font-weight: 400;
+  font-size: 10vph;
+  color: inherit;
+  text-align: center;
+ }
+
+
+  .c5{
+  font-weight: 300;
+  font-size: 8vph;
+  color: inherit;
+  text-align: center;
+ }
+
+#loading{
+  text-align: center;
+  left: 35%;
+  top: 33%;
+ }
+
+ #loading>img{
+  position: relative;
+  left: 33%;
+  height: auto;
+  width: 22%;
+ }
+
+#firstAnnot{
+  left: 5%;  
+  top: 10%;
+  height: 20%;
+  color: white;
+}
+
+#secondAnnot{
+  left: 60%;  
+  top: 70%;
+  height: 25%;
+  color: black;
+}
+
+#thirdAnnot{
+  left: 5%;  
+  top: 70%;
+  height: 33%;
+  color: black;
+}
+
+#fourthAnnot{
+  left: 60%;  
+  top: 10%;
+  height: 33%;
+  color: white;
+}
+
+
+
+
+#pControlL{
+  left:33%;
+  top: 66%;
+  text-align: left;
+}
+#pControlR{
+  left:66%;
+  top: 66%;
+  text-align: right;
+}
+
+
+/*Some resume CSS*/
+
+.couple>.floatLeft:hover{
+  color: rgba(111,111,0,1);
+    font-weight: 700;
+}
+.couple>.floatRight:hover{
+  color: rgba(0,111,111,1);
+  font-weight: 700;
+}
+
+.nav-tabs{
+
+}
+
+.nav-tabs>li>a{
+  background: rgba(255,255,255,.0);
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+}
+.nav-tabs>li>a:hover{
+  background: rgba(255,255,255,.22);
+}
+
+a.tabNav{
+  background-color: rgba(255,255,255,.0);
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+a.tabNav:hover{
+  background-color: rgba(255,255,255,.22);
+}
+
+ul.nav.nav-tabs{
+  top: 0px!important;
+  width: auto;
+  z-index: 99;
+  background-color: rgba(255,255,255,.33);
+  border-radius: 50%;
+  display: table-cell; 
+  text-align: center;
+  vertical-align: middle;
+  position: fixed;
+
+
+}
+
+.tab-pane:hover{
+-moz-transition: all 0.3s ease-out;
+-o-transition: all 0.3s ease-out; 
+-webkit-transition: all 0.3s ease-out; 
+transition: all 0.3s ease-out;
+}
+
+ul.nav.nav-tabs:hover{
+  background-color: rgba(255,255,255,.55);
+}
+
+.resumeTabPanel{
+  text-align: center;
+  vertical-align: middle;
+  top: -15%;
+}
+
+#resumeVessel.show{
+  display: inline-block!important;
+}
+
+
+
+.floatRight{
+  float: right;
+  text-align: right;
+  white-space: nowrap;
+}
+.floatLeft{
+  float: left;
+  text-align: left;
+  white-space: nowrap;
+}
+
+
+.couple~*{
+ 
+z-index: 99; 
+
+-moz-transition: all .2s ease-out;
+  -o-transition: all .2s ease-out; 
+  -webkit-transition: all .2s ease-out; 
+  transition: all .2s ease-out;
+  
+}
+
+.couple~*:hover{
+
+-moz-transition: all 1s ease-in;
+  -o-transition: all 1s ease-in; 
+  -webkit-transition: all 1s ease-in; 
+  transition: all 1s ease-in;
+  
+
+  color: #000;
+  display: block;
+  font-size: 2.2em;
+  text-shadow: #FFDB4D 1px 1px, #FFDB4D -1px -1px, #FFDB4D -1px 1px 77px, #FFDB4D 1px -1px 77px;
+}
+
+
+/*
+///////packery.js
+*/
+
+div.item.small>a>img{
+  width: 72px;
+  height: auto;
+}
+
+div.item.big>a>img{
+  width: 144px;
+  height: auto;
+}
+
+.photo{
+  z-index: -9;
+}
+
+/*
+  jquery.simple.lightbox
+  Works together w/ bootstrap modals
+*/
+
+/*
+  Modal itself
+*/
+
+
+div.modal-content{
+  position: fixed;
+  display: block;
+  left: 11.1%;
+  top: 11.1%;
+  height: 77.7%;
+  width: 77.7%;
+  border-radius: 10%;
+  text-align: center;
+  vertical-align: middle;
+  background: rgba(255,255,255,.33);
+}
+
+.modal.simple-lightbox {
+  position: fixed;
+  display: block;
+  left: 11.1%;
+  top: 11.1%;
+  height: 77.7%;
+  width: 77.7%;
+  border-radius: 10%;
+  text-align: center;
+  vertical-align: middle;
+  max-width: 90%;
+  max-height: 80%;
+  background: rgba(0,0,0,0.5);
+}
+
+.simple-lightbox img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: 0 auto;
+  /* @inc .boxShadow */
+  -webkit-box-shadow: 3px 3px 12px rgba(0,0,0,0.25);
+  -moz-box-shadow: rgba(0,0,0,0.25) 3px 3px 12px;
+  box-shadow: 3px 3px 12px rgba(0,0,0,0.25);
+  
+}
+
+.simple-lightbox .caption {
+  display: none;
+}
+
+.simple-lightbox .caption.active {
+  display: inline-block;
+  padding: 6px 12px;
+  position: absolute;
+  bottom: -35px;
+  margin: 0;
+  left: 0;
+  right: 0;
+  color: #FFF;
+  font-weight: 700;
+  zoom: 1;
+} 
+
+
+.simple-lightbox .close {
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  line-height: 24px;
+  color: #FFF;
+  top: 12px;
+  right: 12px;
+  text-align: center;
+  opacity: 1;
+  text-shadow: none;
+  background: rgba(0,0,0,0.4);
+  display: block;
+
+  /* Rounded corners */
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+
+.simple-lightbox .close span {
+  position: relative;
+  bottom: 3.33%;
+  display: inline-block;
+  font-size: 3em;
+}
+
+.modal-backdrop{
+  height: 100%;
+  width: 100%;
+  z-index: 99;
+  position: fixed;
+  background-color: rgba(0,0,0,.55);
+
+}
+
+
+
+/*  BigVideo Styles 
+  You may need to adjust these styles to 
+  get this working right in your design. 
+*/
+#big-video-wrap{
+  z-index: -99;
+  overflow:hidden;
+  position:absolute;
+  height:100%;
+  width:100%;
+  top:0!important;
+  left:0!important;
+}
+#big-video-vid,#big-video-image{
+  z-index: -99;
+  height: auto;
+  width: 100%!important;
+  position:fixed;
+  top:0px!important;
+}
+
+
+#big-video-control-container{
+
+  position:fixed;
+  bottom:0;
+  padding:10px;
+  width:100%;
+  background:rgba(0,0,0,.25);
+  -webkit-transition:0.6s;
+  -moz-transition:0.6s;
+  -ms-transition:0.6s;
+  -o-transition:0.6s;
+  transition:0.6s;
+}
+#big-video-control{
+
+width:100%;
+height:16px;
+position:relative;
+}
+#big-video-control-middle{
+
+margin: 0 56px 0 24px;
+}
+#big-video-control-bar{
+
+width:100%;
+height:16px;
+position:relative;
+cursor:pointer;
+}
+#big-video-control-progress{
+
+position:absolute;
+top:7px;
+height:3px;
+width:0%;
+background:#fff;
+}
+#big-video-control-track{
+
+position:absolute;
+top:8px;
+height:1px;
+width:100%;
+background:#fff;
+}
+#big-video-control-bound-left{
+
+left:0;
+}
+#big-video-control-bound-right{
+
+right:-1px}
+#big-video-control-track .ui-slider-handle {
+
+opacity:.5;
+}
+#big-video-control-playhead{
+top: 5%;
+left:5%;
+}
+#big-video-control-play{
+
+position:absolute;
+top:0;
+left:0;
+height:16px;
+width:16px;
+background-image:url('/img/cover.png');
+}
+#big-video-control-timer{
+
+position:absolute;
+top:1px;
+right:0;
+color:#fff;
+font-size:11px;
+}
+#big-video-control-playhead,#big-video-control-bound-left,#big-video-control-bound-right{
+
+position:absolute;
+top:0;
+height:16px;
+width:1px;
+background:#fff;
+}
+#big-video-control .ui-slider-handle{
+
+border-left:solid 1px #fff;
+ width:16px;
+height:16px;
+position:absolute;
+top:-8px;
+}
+.transparent{
+
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+filter:alpha(opacity=0);
+-moz-opacity:0;
+-khtml-opacity:0;
+opacity:0;
+}
+.vjs-big-play-button{
+
+display:none !important;
+}
+
+
+
+
+
+

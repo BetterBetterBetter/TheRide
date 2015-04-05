@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Alexis Greenberger</title>
+<title>The Ride</title>
 <meta name="google-site-verification" content="HVcUYD8A3-9W7TpA3X37TDx2DnYte7wtgcb82g5k8XA" />
 
   <meta name="viewport" content="width=device-width, height=device-height,initial-scale=1.0, user-scalable=1" />

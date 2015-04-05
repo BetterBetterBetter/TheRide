@@ -388,12 +388,12 @@ z-index: 99;
 */
 
 div.item.small>a>img{
-  width: 72px;
+  width: 120px;
   height: auto;
 }
 
 div.item.big>a>img{
-  width: 144px;
+  width: 400px;
   height: auto;
 }
 

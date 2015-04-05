@@ -65,7 +65,13 @@ $container.imagesLoaded( function() {
 });
 
 
+///////Init Light Boxes
+(function($){
+  
+  // Invoke our plugin
+  $('[data-lightbox]').simpleLightbox();
 
+})(jQuery);
 
 
 

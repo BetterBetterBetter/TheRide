@@ -29,7 +29,7 @@
 			useFlashForFirefox:false,
 			// If you are doing a playlist, the video won't play the first time
 			// on a touchscreen unless the play event is attached to a user click
-			forceAutoplay:false,
+			forceAutoplay:true,
 			controls:false,
 			doLoop:true,
 			container:$('body'),
@@ -56,14 +56,16 @@
 		var settings = $.extend({}, defaults, options);
 
 		function updateSize() {
-			var containerW = settings.container.outerWidth() < $(window).width() ? settings.container.outerWidth() : $(window).width(),
-				containerH = settings.container.outerHeight() < $(window).height() ? settings.container.outerHeight() : $(window).height(),
-				containerAspect = containerW/containerH;
-
+			var containerW = settings.container.outerWidth() < $(window).width() ? settings.container.outerWidth() : $(window).width();
+			var	containerH = settings.container.outerHeight() < $(window).height() ? settings.container.outerHeight() : $(window).height();
+			//I added this bit to fix a problem in which containerH was always 0
+			if (containerH == 0) { containerH = $(window).height(); };
+			var containerAspect = containerW/containerH;
+/*
 			if (settings.container.is($('body'))) {
 				$('html,body').css('height',$(window).height() > $('body').css('height','auto').height() ? '100%' : 'auto');
 			}
-
+*/			
 			if (containerAspect < mediaAspect) {
 				// taller
 				if (currMediaType == 'video') {
@@ -117,8 +119,8 @@
 					// is image
 					$('#big-video-image')
 						.css({
-							width: containerW,
-							height: 'auto',
+							width: 'auto',
+							height: 'containerH',
 							top:-(containerW/mediaAspect-containerH)/2,
 							left:0
 						});

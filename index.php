@@ -60,16 +60,16 @@ BV.init();
 <div id="navVessel" class="hidden vessel">
 
 <div id="resumeVessel" class="hidden vessel draggable">
-<span id="resume" class="draggable noOpacity glyphicon glyphicon-list-alt" data-toggle="tooltip" data-placement="bottom" title="This is the button to view my resume."></span></div>
+<span id="resume" class="draggable noOpacity glyphicon glyphicon-shopping-cart" data-toggle="tooltip" data-placement="bottom" title="Products"></span></div>
 
 <div id="contactVessel" class="hidden vessel">
 <span id="contact"  class="draggable noOpacity glyphicon glyphicon-envelope " data-toggle="tooltip" data-placement="top" title="Click here to get in touch."></span></div>
 
 <div id="photoVessel" class="hidden vessel">
-<span id="photo" class="draggable noOpacity glyphicon glyphicon-camera" data-toggle="tooltip" data-placement="top" title="View my photos here!"></span></div>
+<span id="photo" class="draggable noOpacity glyphicon glyphicon-camera" data-toggle="tooltip" data-placement="top" title="Terrifying outtakes"></span></div>
 
 <div id="playVessel" class="hidden vessel">
-<span id="play"  class="active draggable noOpacity  glyphicon glyphicon-play-circle" data-toggle="tooltip" data-placement="bottom" title="If you hit play here, you will see my audition videos from newest to oldest."></span></div>
+<span id="play"  class="active draggable noOpacity  glyphicon glyphicon-play-circle" data-toggle="tooltip" data-placement="bottom" title="Go ahead, click it already!"></span></div>
 
 <!-- end of navVessel, which contains all nav icons--> 
 </div>
@@ -410,15 +410,15 @@ BV.init();
 <div class="hidden contact mainContent mcVessel"> 
 
 	<h1 class="contact c1 mainContent">
-	Alexis Greenberger
+	Matthew Evans
 	</h1>
-	<h3 class="contact c3 mainContent" style="text-align: center">
-	<a href="mailto:lexigreenberger@gmail.com">lexigreenberger@gmail.com</a>
+	<h2 class="contact c3 mainContent" style="text-align: center">
+	Director</h2>
+	<img src="img/djinnFace.png" />
+	<h3>
+		<a href="mailto:matthew3vansz@gmail.com">matthew3vansz@gmail.com</a>
 	</h3>
-	<h2 class="contact c2 mainContent">
-	<a href="tel:+1-412-477-8720"></a>
-1.412.477.8720 
-	</h2>
+
 
 </div>
 
@@ -433,25 +433,23 @@ BV.init();
 
 	<div id="container" class="photo js-packery">
 
-  		<div class="item big"><a href="/img/photo/hires/1.jpg" data-lightbox><img src="/img/photo/lowres/1.png"/> </a></div>
-  		<div class="item small"><a href="/img/photo/hires/2.jpg" data-lightbox><img src="/img/photo/lowres/2.png"/> </a> </div>
-
+  		<div class="item big"><a href="/img/gif/JB_pyschic.gif" data-lightbox><img src="/img/gif/JB_pyschic.gif"/> </a></div>
+  		<div class="item big"><a href="/img/gif/realScary.gif" data-lightbox><img src="/img/gif/realScary.gif"/> </a></div>
+  		<div class="item big"><a href="/img/gif/JB_pyschic2.gif" data-lightbox><img src="/img/gif/JB_pyschic2.gif"/> </a></div>
+  		<div class="item big"><a href="/img/gif/TheRide_trublod.gif" data-lightbox><img src="/img/gif/TheRide_trublod.gif"/> </a></div>
+  		<div class="item big"><a href="/img/gif/TheRide_knifes.gif" data-lightbox><img src="/img/gif/TheRide_knifes.gif"/> </a></div>
 
 	</div>
 
 </div>
 
-<div id="loading" class="hidden box draggable">
-	<img src="/img/gif/Lex.gif" />
-	<h1 class="c1">Warming Up...</h1> 
-</div>
 
 <div id="firstAnnot" class="hidden box draggable">
 	<span class="annot c1">Hello.</span>
 </div>
 
 <div id="secondAnnot" class="hidden box draggable">
-	<span class="annot c2">I am Alexis Greenberger.</span>
+	<span class="annot c2">I am terrified.</span>
 </div>
 
 <div id="thirdAnnot" class="hidden box draggable">
@@ -487,8 +485,10 @@ BV.init();
 </body>
 <tail>
 <!--async loading bay -->
-
-
+<img class="hidden" data-aload="/img/gif/JB_pyschic2.gif"/> 
+<img class="hidden" data-aload="/img/gif/JB_pyschic.gif"/>
+<img class="hidden" data-aload="/img/gif/realScary.gif"/>
+<img class="hidden" data-aload="/img/gif/TheRide_knifes.gif"/>
 
 </tail>
 </html>

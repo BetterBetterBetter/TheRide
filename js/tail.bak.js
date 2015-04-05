@@ -11,31 +11,9 @@ BV.getPlayer().ready(function(){
 });
 
 
-/////////////////////////Init
+//Init
 resizeDiv();
-//inits bootstrap tab    
-$('#resumeTabPanel a:first').tab('show');
-$("ul.nav.nav-tabs").on("touchstart", function(){})
-//helps deal with hover events on touch
-$(document).on("touchstart", "body~*", function(event){
-	$(event.target).trigger("mouseenter");
-});
-////////Inits slick.js, a gallery
-/*$('.slider-for').slick({
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  arrows: false,
-  fade: true,
-  asNavFor: '.slider-nav'
-});
-$('.slider-nav').slick({
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  asNavFor: '.slider-for',
-  dots: true,
-  centerMode: true,
-  focusOnSelect: true
-});*/
+
 
 
 //Hover Events
@@ -190,16 +168,13 @@ $(document).on('touchstart click', '.glyphicon', function(event){
     	//Play icon causes the video to continue, turns into pause while playing
 	  	if($(event.target).is($play)) {
 	  		if (BV.getPlayer().paused()===true){
-	  			//if paused, unpause and change icon. If photo is activated, turn it off
-	  			if($($photo).hasClass("class")){
-	  				CLICKhandled = false;
-	  				$($photo).trigger("click");
-	  			}
+	  			//if paused, unpause and change icon
+
 	  			//because the video is paused with a Handler initially, we will use it to delay the normal behavior as it fades out
 	  			if (firstVideoPauseHandler===false){
 					//not paused at "menu" screen
 					$(event.target)
-					.switchClass("glyphicon-play-circle", "glyphicon-pause", 0);
+					.switchClass("glyphicon-play", "glyphicon-pause", 0);
 
 				} else if(firstVideoPauseHandler===true) {
 					//paused at menu screen 
@@ -208,7 +183,7 @@ $(document).on('touchstart click', '.glyphicon', function(event){
 						$($play)
 	        			.velocity({color: "#000000"}, {duration: 0, queue:false})
 	        			.addClass("active")
-						.switchClass("glyphicon-play-circle", "glyphicon-pause", 0);
+						.switchClass("glyphicon-play", "glyphicon-pause", 0);
 
 						BV.getPlayer().playbackRate("1");
 						$("#navVessel").hideAndShow();
@@ -232,51 +207,22 @@ $(document).on('touchstart click', '.glyphicon', function(event){
 		        	$(event.target)
 		        	.velocity("stop")
 		        	.velocity("transition.slideRightOut", {drag: true, duration: 1111, queue:false});
+		        	//vanish the MC
+		        	
+
+
 		  			}
-
-		  		if ($($photo).hasClass("active")){
-
-		  			CLICKhandled = false;
-		  			$($photo).trigger("click");
-
-		  			BV.show([
-				    { poster: "/img/cover.jpg", type: "video/mp4",  src: "/videos/LexAud2015.mp4" },
-				    { poster: "/img/cover.jpg", type: "video/webm", src: "/videos/LexAud2015.webm" },
-					{ poster: "/img/cover.jpg", type: "video/ogg",  src: "/videos/LexAud2015.ogv" },
-					{src: "/img/cover.jpg"}
-					]);
-
-		  			BV.getPlayer().currentTime(
-		  				CURRENTtime);
-
-		  		}	
-		  		
 				
 				BV.getPlayer().playbackRate("1");
 				BV.getPlayer().play();
-
-
 
 			} else if (BV.getPlayer().paused()===false) {
 				//if playing, pause and change icon
 				BV.getPlayer().playbackRate("1");
 				BV.getPlayer().pause();
 				$($play)
-				.switchClass("glyphicon-pause", "glyphicon-play-circle", 0);
+				.switchClass("glyphicon-pause", "glyphicon-play", 0);
 			}
-	  	}
-	  	//If photos, we need to show it on BV
-	  	if($(event.target).is($photo)) {
-	  		CURRENTtime = BV.getPlayer().currentTime();
-	  		//if playing, then click 'pause'
-	  		if(BV.getPlayer().paused() === false){
-	  			CLICKhandled = false;
-	  			$($play).trigger("click");
-	  		}
-				  		
-	  		//show photos in BV
-	  		BV.show("/img/photo/1.jpg");
-	  		resizeDiv();
 	  	}
 
 		//sets the handler to add'l clicks
@@ -303,3 +249,11 @@ $.Velocity.RegisterEffect(name, {
 });
 
 */
+
+
+$(function() {
+    $( "#accordion" ).accordion({
+      collapsible: true
+    });
+  });
+

@@ -83,7 +83,7 @@ function resizeText()
 
 
 function initBuffer() {
-  if (BV.getPlayer().buffered().end(0)>90){
+  if (BV.getPlayer().buffered().end(0)>60){
 
       //load photo background async
       aload();
@@ -94,7 +94,7 @@ function initBuffer() {
        }, 2222);
       //play video, real fast
       BV.getPlayer().play();
-      BV.getPlayer().playbackRate("4");
+      BV.getPlayer().playbackRate("1");
 
     } else {
       setTimeout(initBuffer, 250);

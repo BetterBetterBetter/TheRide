@@ -51,11 +51,7 @@ BV = new $.BigVideo();
 
 BV.init();
   BV.show([
-    { poster: "/img/cover.jpg", type: "video/mp4",  src: "/videos/LexAud2015.mp4" },
-    { poster: "/img/cover.jpg", type: "video/webm", src: "/videos/LexAud2015.webm" },
-	{ poster: "/img/cover.jpg", type: "video/ogg",  src: "/videos/LexAud2015.ogv" },
-	{src: "/img/cover.jpg"}
-
+    {type: "video/mp4",  src: "/videos/TheRide.mp4" }
 ]);
 
 

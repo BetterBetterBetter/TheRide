@@ -4,7 +4,7 @@
 <file name="tail.js" server="198.46.148.173//" local="130701487143250241" remote="130701488030000000" Dst="1" />
 <file name="annotations.js" server="198.46.148.173//" local="130701487306479665" remote="130701488020000000" Dst="1" />
 <file name="annotations.bak.js" server="31.170.167.97//public_html/" local="130701338968262940" remote="130726630800000000" Dst="2" />
-<file name="annotations.js" server="31.170.167.97//public_html/" local="130701487306479665" remote="130726630800000000" Dst="2" />
+<file name="annotations.js" server="31.170.167.97//public_html/" local="130726677110267085" remote="130726677000000000" Dst="2" />
 <file name="bigvideo.js" server="31.170.167.97//public_html/" local="130701338969156858" remote="130726630800000000" Dst="2" />
 <file name="fastclick.js" server="31.170.167.97//public_html/" local="130701338969817982" remote="130726630800000000" Dst="2" />
 <file name="head.bak.js" server="31.170.167.97//public_html/" local="130701338971598914" remote="130726630800000000" Dst="2" />
@@ -21,5 +21,6 @@
 <file name="tail.bak.js" server="31.170.167.97//public_html/" local="130701338978202911" remote="130726630800000000" Dst="2" />
 <file name="slick.min.js" server="31.170.167.97//public_html/" local="130701338975388230" remote="130726630800000000" Dst="2" />
 <file name="tail.brok.bak1.js" server="31.170.167.97//public_html/" local="130701338978577876" remote="130726630800000000" Dst="2" />
-<file name="tail.js" server="31.170.167.97//public_html/" local="130701487143250241" remote="130726630800000000" Dst="2" />
+<file name="tail.js" server="31.170.167.97//public_html/" local="130726675957771898" remote="130726677000000000" Dst="2" />
+<file name="packery.min.js" server="31.170.167.97//public_html/" local="130726688452397468" remote="130726688400000000" Dst="2" />
 </dwsync>

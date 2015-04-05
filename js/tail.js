@@ -27,7 +27,7 @@ $("span").on("touchstart", function(event){
 
 
 
-
+/*
 ///////Init Light Boxes
 (function($){
   
@@ -35,7 +35,7 @@ $("span").on("touchstart", function(event){
   $('[data-lightbox]').simpleLightbox();
 
 })(jQuery);
-
+*/
 
 
 

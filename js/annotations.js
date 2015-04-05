@@ -27,12 +27,12 @@ function annotations(){
 
 	} else {
 //slow down before pause to ensure that event fires
-	if (BV.getPlayer().currentTime() > 40 && BV.getPlayer().currentTime() < 50 && BV.getPlayer().playbackRate()!=8) {
-		BV.getPlayer().playbackRate("8");
+	if (BV.getPlayer().currentTime() > 40 && BV.getPlayer().currentTime() < 50 && BV.getPlayer().playbackRate()!=1) {
+		BV.getPlayer().playbackRate("1");
 	} else {
 //keep on slowing...
-	if (BV.getPlayer().currentTime() > 50 && BV.getPlayer().currentTime() < 55 && BV.getPlayer().playbackRate()!=4) {
-		BV.getPlayer().playbackRate("4");
+	if (BV.getPlayer().currentTime() > 50 && BV.getPlayer().currentTime() < 55 && BV.getPlayer().playbackRate()!=1) {
+		BV.getPlayer().playbackRate("1");
 	} else {
 //pause and present button
 	if (BV.getPlayer().currentTime() > 57 && BV.getPlayer().currentTime() < 59 && firstVideoPauseHandler===false)	{
@@ -40,7 +40,7 @@ function annotations(){
 			$($play).trigger("click");
 
 			firstVideoPauseHandler = true;
-			BV.getPlayer().playbackRate("2");
+			BV.getPlayer().playbackRate("1");
 			
 
 			if (!$("#navVessel").hasClass("show")){

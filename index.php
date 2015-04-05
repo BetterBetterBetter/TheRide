@@ -3,7 +3,6 @@
 <head>
 <meta charset="UTF-8">
 <title>The Ride</title>
-<meta name="google-site-verification" content="HVcUYD8A3-9W7TpA3X37TDx2DnYte7wtgcb82g5k8XA" />
 
   <meta name="viewport" content="width=device-width, height=device-height,initial-scale=1.0, user-scalable=1" />
 
@@ -436,41 +435,6 @@ BV.init();
 
   		<div class="item big"><a href="/img/photo/hires/1.jpg" data-lightbox><img src="/img/photo/lowres/1.png"/> </a></div>
   		<div class="item small"><a href="/img/photo/hires/2.jpg" data-lightbox><img src="/img/photo/lowres/2.png"/> </a> </div>
-  		<div class="item small"><a href="/img/photo/hires/3.jpg" data-lightbox><img src="/img/photo/lowres/3.png"/> </a> </div>
-  		<div class="item small"><a href="/img/photo/hires/4.jpg" data-lightbox><img src="/img/photo/lowres/4.png"/> </a> </div>
-  		<div class="item big"><a href="/img/photo/hires/5.jpg" data-lightbox><img src="/img/photo/lowres/5.png"/> </a> </div>
-  		<div class="item small"><a href="/img/photo/hires/6.jpg" data-lightbox><img src="/img/photo/lowres/6.png"/> </a> </div>
-  		<div class="item small"><a href="/img/photo/hires/7.jpg" data-lightbox><img src="/img/photo/lowres/7.png"/> </a> </div>
-  		<div class="item small"><a href="/img/photo/hires/8.jpg" data-lightbox><img src="/img/photo/lowres/8.png"/> </a> </div>
-  		<div class="item small"><a href="/img/photo/hires/9.jpg" data-lightbox><img src="/img/photo/lowres/9.png"/> </a> </div>
-  		<div class="item small"><a href="/img/photo/hires/10.jpg" data-lightbox><img src="/img/photo/lowres/10.png"/> </a> </div>
-  		<div class="item small"><a href="/img/photo/hires/11.jpg" data-lightbox><img src="/img/photo/lowres/11.png"/> </a> </div>
-  		<div class="item small"><a href="/img/photo/hires/12.jpg" data-lightbox><img src="/img/photo/lowres/12.png"/> </a> </div>
-  		<div class="item small"><a href="/img/photo/hires/13.jpg" data-lightbox><img src="/img/photo/lowres/13.png"/> </a> </div>
-  		<div class="item small"><a href="/img/photo/hires/14.jpg" data-lightbox><img src="/img/photo/lowres/14.png"/> </a> </div>
-  		<div class="item big"><a href="/img/photo/hires/15.jpg" data-lightbox><img src="/img/photo/lowres/15.png"/> </a> </div>
-  		<div class="item small"><a href="/img/photo/hires/16.jpg" data-lightbox><img src="/img/photo/lowres/16.png"/> </a> </div>
-  		<div class="item small"><a href="/img/photo/hires/17.jpg" data-lightbox><img src="/img/photo/lowres/17.png"/> </a> </div>
-  		<div class="item big"><a href="/img/photo/hires/18.jpg" data-lightbox><img src="/img/photo/lowres/18.png"/> </a> </div>
-  		<div class="item small"><a href="/img/photo/hires/19.jpg" data-lightbox><img src="/img/photo/lowres/19.png"/> </a> </div>
-  		<div class="item small"><a href="/img/photo/hires/20.jpg" data-lightbox><img src="/img/photo/lowres/20.png"/> </a> </div>
-  		<div class="item small"><a href="/img/photo/hires/21.jpg" data-lightbox><img src="/img/photo/lowres/21.png"/> </a> </div>
-  		<div class="item small"><a href="/img/photo/hires/22.jpg" data-lightbox><img src="/img/photo/lowres/22.png"/> </a> </div>
-  		<div class="item big"><a href="/img/photo/hires/23.jpg" data-lightbox><img src="/img/photo/lowres/23.png"/> </a> </div>
-  		<div class="item big"><a href="/img/photo/hires/24.jpg" data-lightbox><img src="/img/photo/lowres/24.png"/> </a> </div>
-  		<div class="item small"><a href="/img/photo/hires/25.jpg" data-lightbox><img src="/img/photo/lowres/25.png"/> </a> </div>
-  		<div class="item small"><a href="/img/photo/hires/26.jpg" data-lightbox><img src="/img/photo/lowres/26.png"/> </a> </div>
-  		<div class="item small"><a href="/img/photo/hires/27.jpg" data-lightbox><img src="/img/photo/lowres/27.png"/> </a> </div>
-  		<div class="item big"><a href="/img/photo/hires/28.jpg" data-lightbox><img src="/img/photo/lowres/28.png"/> </a> </div>
-  		<div class="item small"><a href="/img/photo/hires/29.jpg" data-lightbox><img src="/img/photo/lowres/29.png"/> </a> </div>
-  		<div class="item small"><a href="/img/gif/Lex.gif" data-lightbox><img src="/img/gif/Lex.gif"/> </a> </div>
-  		<div class="item small"><a href="/img/photo/hires/30.jpg" data-lightbox><img src="/img/photo/lowres/30.png"/> </a> </div>
-  		<div class="item small"><a href="/img/photo/hires/31.jpg" data-lightbox><img src="/img/photo/lowres/31.png"/> </a> </div>
-  		<div class="item small"><a href="/img/photo/hires/32.jpg" data-lightbox><img src="/img/photo/lowres/32.png"/> </a> </div>
-  		<div class="item small"><a href="/img/photo/hires/33.jpg" data-lightbox><img src="/img/photo/lowres/33.png"/> </a> </div>
-  		<div class="item small"><a href="/img/photo/hires/34.jpg" data-lightbox><img src="/img/photo/lowres/34.png"/> </a> </div>
-		<!--div class="item big"><a href="/img/photo/hires/35.jpg" data-lightbox><img src="/img/photo/lowres/35.png"/> </a> </div -->
-		<div class="item big"><a href="/img/photo/hires/36.jpg" data-lightbox><img src="/img/photo/lowres/36.png"/> </a> </div>
 
 
 	</div>
@@ -523,7 +487,6 @@ BV.init();
 </body>
 <tail>
 <!--async loading bay -->
-<img class="hidden" data-aload="/img/photo/hires/10.jpg"/> 
 
 
 

@@ -83,7 +83,7 @@ function resizeText()
 
 
 function initBuffer() {
-  if (BV.getPlayer().buffered().end(0)>60){
+  if (BV.getPlayer().buffered().end(0)>20){
 
       //load photo background async
       aload();

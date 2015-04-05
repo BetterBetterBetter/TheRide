@@ -138,7 +138,7 @@ $('div.item.small > a > img')
   	var $this = $(this);
   	var originalWidth = $($this).css("width");
   	var modifiedWidth = parseInt(originalWidth) - 8;
-  	  	if (modifiedWidth<80){modifiedWidth += 8};
+  	  	if (modifiedWidth<400){modifiedWidth += 8};
     $this.hoverFlow(e.type, { width: modifiedWidth }, 'fast', 'easeInOutBounce');
   });
 ///large class
@@ -152,7 +152,7 @@ $('div.item.big > a > img')
   	var $this = $(this);
   	var originalWidth = $($this).css("width");
   	var modifiedWidth = parseInt(originalWidth) - 6;
-  	  	if (modifiedWidth<144){modifiedWidth += 6};
+  	  	if (modifiedWidth<400){modifiedWidth += 6};
     $this.hoverFlow(e.type, { width: modifiedWidth }, 'fast', 'easeInOutBounce');
   });
 

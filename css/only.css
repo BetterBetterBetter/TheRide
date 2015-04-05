@@ -31,7 +31,8 @@ z-index: 9;
 body{
   width: 100%;
   height: 100%;
-  font-family: 'Alex Brush', cursive;  background: rgba(255,255,255,1);
+  font-family: 'Amatic SC', cursive;  
+  background: rgba(255,255,255,1);
   position: relative;
   z-index: -99999;
 }

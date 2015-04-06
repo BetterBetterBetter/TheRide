@@ -112,13 +112,20 @@ BV.init();
 </div>
 
 
+
+
+<div id="loading" class="hidden box draggable">
+	<img src="/img/gif/JB_pyschic2.gif" />
+	<h1 class="c1">It's coming...</h1> 
+</div>
+
 <div id="firstAnnot" class="hidden box draggable">
 </div>
 
 <div id="secondAnnot" class="hidden box draggable">
 </div>
 
-<div id="thirdAnnot" class="hidden box draggable">
+<div id="thirdAnnot" class="hiIt's coming box draggable">
 </div>
 
 <div id="fourthAnnot" class="hidden box draggable">

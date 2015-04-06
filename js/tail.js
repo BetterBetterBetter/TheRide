@@ -27,7 +27,7 @@ $("span").on("touchstart", function(event){
 
 
 
-/*
+
 ///////Init Light Boxes
 (function($){
   
@@ -35,13 +35,33 @@ $("span").on("touchstart", function(event){
   $('[data-lightbox]').simpleLightbox();
 
 })(jQuery);
-*/
 
 
 
 
 
 
+
+
+
+function initBuffer() {
+  if (BV.getPlayer().buffered().end(0)>50){
+
+      //load photo background async
+      aload();
+      //hide gif
+      $($loading).velocity("transition.flipBounceXOut", {duration: 2222});
+      setTimeout(function(){
+          $($loading).hideAndShow();
+       }, 2222);
+      //play video, real fast
+      BV.getPlayer().play();
+      BV.getPlayer().playbackRate("1");
+
+    } else {
+      setTimeout(initBuffer, 250);
+    }
+  }
 
 ///////Init packery (photos wall)
 var $container = $('#container').packery({

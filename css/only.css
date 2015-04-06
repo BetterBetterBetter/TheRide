@@ -218,16 +218,17 @@ p{
  }
 
 #loading{
+  position: fixed;
   text-align: center;
   left: 35%;
-  top: 33%;
+  top: 10%;
  }
 
  #loading>img{
   position: relative;
-  left: 33%;
+  left: 0%;
   height: auto;
-  width: 22%;
+  width: 33%;
  }
 
 #firstAnnot{

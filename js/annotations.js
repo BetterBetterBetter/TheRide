@@ -16,7 +16,14 @@ var $loading  = $("#loading");
 function annotations(){
 //Pause early on until the whole intro is loaded
 	if (BV.getPlayer().currentTime() > 5 && BV.getPlayer().currentTime() < 6 && initBufferHandler===true){
-		
+		$($play).trigger("click");	
+		initBufferHandler = false;
+
+				//hide gif
+      	$($loading)	
+      		.hideAndShow()
+        	.velocity("transition.flipBounceXIn", {duration: 7777});
+		setTimeout(initBuffer, 500);
 
 	} else {
 //slow down before pause to ensure that event fires

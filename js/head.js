@@ -39,11 +39,14 @@ function resizeDiv()
       var vphNine = (vph / 9);
       var vpwNine = (vpw / 9);
       var vphNineFont = vpwNine * asp;
+      var mcWidth = vpw * .777;
+      var gifWidth = mcWidth / 3;
       $( "body" )
         .css({"width": vpw + "px"})
         .css({"height": vph + "px"});
       $(".glyphicon").css({"height": vphNine + "px"}).css({"width": vpwNine + "px"}).css({"font-size": vphNineFont});
-     
+     $(" .item ")
+      .css({"width": gifWidth })
      resizeText();
 
 }
